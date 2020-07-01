@@ -256,7 +256,8 @@ class StripeCard {
       },
       'billing_details': {
         FIELD_NAME: name,
-      }
+      },
+      'customer': customerId,
     };
 
     removeNullAndEmptyParams(map);
